@@ -1,0 +1,17 @@
+3823560873.numofacc_h = 2
+3823560873.name2 = Name2
+3823560873.name1 = Name1
+3823560873.name = Dipti
+3823560873.address = erjtlw 45756
+3823560873.phonenumber = 457887978
+3823560873.balance = 0.0
+3823560873.numofacc_h = 2
+3823560873.name = Dipti
+3823560873.address = 32432 geet
+3823560873.phonenumber = 43647647
+3823560873.balance = 0.0
+6944634678.numofacc_h = 0
+6944634678.name = Acc2
+6944634678.address = 3453 fdhtr
+6944634678.phonenumber = 36567587
+6944634678.balance = 100.0
