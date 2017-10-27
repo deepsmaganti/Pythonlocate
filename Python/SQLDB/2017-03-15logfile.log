@@ -1,0 +1,188 @@
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,'Dipti')
+ERROR:root:1364 (HY000): Field 'lastName' doesn't have a default value
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (lastName,employeeNumber,firstName) values ('Mag',999,'Dipti')
+ERROR:root:1364 (HY000): Field 'extension' doesn't have a default value
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag','Var','dm@gmail.com',99)
+ERROR:root:1366 (HY000): Incorrect integer value: 'Var' for column 'reportsTo' at row 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1100,'dm@gmail.com',99)
+ERROR:root:1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`classicmodels`.`employees`, CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`reportsTo`) REFERENCES `employees` (`employeeNumber`))
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1143,'dm@gmail.com',99)
+ERROR:root:1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`classicmodels`.`employees`, CONSTRAINT `employees_ibfk_2` FOREIGN KEY (`officeCode`) REFERENCES `offices` (`officeCode`))
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set hello where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set hello where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set hello where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set hello where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set hello where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set  where firstName = Dipti
+ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where firstName = Dipti' at line 1
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = Dipti
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'where clause'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'

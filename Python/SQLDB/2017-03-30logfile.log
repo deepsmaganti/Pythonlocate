@@ -1,0 +1,253 @@
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstName = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstName = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstName = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstName = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstName = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (extension,employeeNumber,firstName,JobTitle,lastName,reportsTo,email,officeCode) values (5388,999,'Dipti','PE','Mag',1056,'dm@gmail.com',1)
+ERROR:root:1062 (23000): Duplicate entry '999' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select reportsTo, jobTitle from employees where jobTitle = 'Sales Rep' and reportsTo = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select reportsTo, jobTitle from employees where jobTitle = 'Sales Rep' and reportsTo = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select reportsTo, jobTitle from employees where jobTitle = 'Sales Rep' and reportsTo = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update employees set employeeNumber = 1000 where firstName = 'Dipti'
+ERROR:root:1062 (23000): Duplicate entry '1000' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select reportsTo, jobTitle from employees where jobTitle = 'Sales Rep' and reportsTo = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName from employees
+INFO:root:SQL query data fetched

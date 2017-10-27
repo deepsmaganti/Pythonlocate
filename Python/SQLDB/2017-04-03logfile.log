@@ -1,0 +1,444 @@
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar' or title = 'Head'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: create table new_table(id int not null, firstname varchar(20), lastname varchar(20), title varchar(10), primary key (id));
+ERROR:root:1050 (42S01): Table 'new_table' already exists
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('World',0,'Hello','Head')
+ERROR:root:1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Mag',1,'Dipti','Engineer')
+ERROR:root:1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',2,'Deepthi','Lead')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',3,'Saanvi','Child')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',4,'Raghu','Manager')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Geller',5,'Monica','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Green',6,'Racheal','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Buffay',7,'Pheebs','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+ERROR:root:1146 (42S02): Table 'classicmodels.new_table' doesn't exist
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+ERROR:root:1146 (42S02): Table 'classicmodels.new_table' doesn't exist
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: create table new_table(id int not null, firstname varchar(20), lastname varchar(20), title varchar(10), primary key (id));
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('World',0,'Hello','Head')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Mag',1,'Dipti','Engineer')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',2,'Deepthi','Lead')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',3,'Saanvi','Child')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',4,'Raghu','Manager')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Geller',5,'Monica','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Green',6,'Racheal','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Buffay',7,'Pheebs','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: create table new_table(id int not null, firstname varchar(20), lastname varchar(20), title varchar(10), primary key (id));
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('World',0,'Hello','Head')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Mag',1,'Dipti','Engineer')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',2,'Deepthi','Lead')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',3,'Saanvi','Child')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',4,'Raghu','Manager')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Geller',5,'Monica','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Green',6,'Racheal','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Buffay',7,'Pheebs','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+ERROR:root:1146 (42S02): Table 'classicmodels.new_table' doesn't exist
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+ERROR:root:1146 (42S02): Table 'classicmodels.new_table' doesn't exist
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: create table new_table(id int not null, firstname varchar(20), lastname varchar(20), title varchar(10), primary key (id));
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('World',0,'Hello','Head')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Mag',1,'Dipti','Engineer')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',2,'Deepthi','Lead')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',3,'Saanvi','Child')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',4,'Raghu','Manager')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Geller',5,'Monica','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Green',6,'Racheal','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Buffay',7,'Pheebs','Actor')
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select lastname, title from new_table where lastname = 'Yar'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'Dipti'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: create table new_table(id int not null, firstname varchar(20), lastname varchar(20), title varchar(10), primary key (id));
+ERROR:root:1050 (42S01): Table 'new_table' already exists
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: update new_table set firstname = 'WORLD' where id = 0
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table where firstname = 'HELLO'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname, lastname, title from new_table where title = 'Actor'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstname from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('World',0,'Hello','Head')
+ERROR:root:1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Mag',1,'Dipti','Engineer')
+ERROR:root:1062 (23000): Duplicate entry '1' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',2,'Deepthi','Lead')
+ERROR:root:1062 (23000): Duplicate entry '2' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',3,'Saanvi','Child')
+ERROR:root:1062 (23000): Duplicate entry '3' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Yar',4,'Raghu','Manager')
+ERROR:root:1062 (23000): Duplicate entry '4' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Geller',5,'Monica','Actor')
+ERROR:root:1062 (23000): Duplicate entry '5' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Green',6,'Racheal','Actor')
+ERROR:root:1062 (23000): Duplicate entry '6' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into new_table (lastname,id,firstname,title) values ('Buffay',7,'Pheebs','Actor')
+ERROR:root:1062 (23000): Duplicate entry '7' for key 'PRIMARY'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select * from new_table
+INFO:root:SQL query data fetched

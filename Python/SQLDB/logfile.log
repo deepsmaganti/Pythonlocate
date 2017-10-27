@@ -1,0 +1,441 @@
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+WARNING:root:1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+WARNING:root:1049 (42000): Unknown database 'classicmodel'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query:select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select firstName, jobTitle from employees where employeeNumber > 1100
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select firstName, employeeNumber, sum(officeCode) from employees where employeeNumber > 1300 group by employeeNumber
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select lastName, employeeNumber, count(reportsTo) from employees where employeeNumber > 1300 group by employeeNumber order by lastName DESC
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees order by firstName DESC
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select firstName, jobTitle from employees where employeeNumber > 1100
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select firstName, employeeNumber, sum(officeCode) from employees where employeeNumber > 1300 group by employeeNumber
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: select lastName, employeeNumber, count(reportsTo) from employees where employeeNumber > 1300 group by employeeNumber order by lastName DESC
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber=1100
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber=1100
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber=1102
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber=1102
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where  employeeNumber = 1102
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = BowandemployeeNumber = 1143
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = Bow and employeeNumber = 1143
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = Bow and employeeNumber = 1143
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where employeeNumber = 1143
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = Bow and firstName = Anthony
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = Bow and employeeNumber = 1143 and firstName = Anthony
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (lastName = Bow and employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (lastName = Bow and employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where (employeeNumber = 1143 and firstName = Anthony)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bow' and employeeNumber = 1143 and firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bow' or employeeNumber = 1143 or firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bow' or employeeNumber = 1143 or firstName = 'Anthony'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' and employeeNumber = 1143 and firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' and employeeNumber = 1143 and firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' and employeeNumber = 1143 and firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched

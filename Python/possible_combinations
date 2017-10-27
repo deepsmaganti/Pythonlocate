@@ -1,0 +1,38 @@
+#Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+
+from itertools import combinations
+
+def comb():
+    elemcomb = int(raw_input("Input the element combination size :"))
+    numofelements = int(raw_input("Input the n of (1....n) to be used for combination : "))
+    arr = [elem + 1 for elem in range(numofelements)]
+    print list(combinations(arr, elemcomb))
+comb()
+
+# out = []
+# new_out = []
+#
+# def user_inputs():
+#     elemcomb = int(raw_input("Input the element combination size :"))
+#     numofelements = int(raw_input("Input the n of (1....n) to be used for combination : "))
+#     arr = [elem+1 for elem in range(numofelements)]
+#     print arr
+#     comb(arr,elemcomb,out=[])
+#
+# # def combinations(n_arr,k):
+# #     if len(n_arr) == k:
+# #         new_out.append(n_arr)
+# #     else:
+# #         for i in (range(len(n_arr)-1)):
+# #             out[i] = i+1
+# #         new_out.append(out)
+# #     print out
+# #     print new_out
+#
+# def comb():
+#     refined_list = list[:i] + list[i+1:]
+#     print refined_list
+#     new_out = comb(n, refined_list,out)
+#     return out
+#
+# user_inputs()

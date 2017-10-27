@@ -1,0 +1,27 @@
+#input: [1,2,[3,4,[5,6],7,[8,[9]]],10]
+#output: [1,2,3,4,5,6,7,8,9,10]
+
+userinput = raw_input("Enter the input:").split(",")
+
+def non_recc(mylist):
+    output = []
+    tmp = []
+    for i in mylist:
+        for j in str(i):
+            if j != "[" and j != "]":
+                tmp.append(j)
+        output.append(int("".join(tmp)))
+        tmp = []
+    return output
+
+#if it is a 2D Vector
+reduce(lambda x,y :x+y , userinput)
+
+ans = [j for i in userinput for j in i]
+
+def flatten(input):
+    new_list = []
+    for i in input:
+        for j in i:
+            new_list.append(j)
+    return new_list

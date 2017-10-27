@@ -1,0 +1,68 @@
+INFO:root:Connecting to the MySQL database
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: insert intoemployees(employeeNumber,lastName,firstName) values(999,Mag,Dipti)
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,lastName,firstName) values (999,Mag,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Mag' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,lastName,firstName) values (999,Mag,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Mag' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: select firstName, lastName, jobTitle from employees where lastName = 'Bad' or employeeNumber = 1143 or firstName = 'Bill'
+INFO:root:SQL query data fetched
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
+INFO:root:Connecting to the MySQL database
+INFO:root:Connection Successful
+INFO:root: SQL Query Executed: insert into employees (employeeNumber,firstName) values (999,Dipti)
+ERROR:root:1054 (42S22): Unknown column 'Dipti' in 'field list'
